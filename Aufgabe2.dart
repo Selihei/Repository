@@ -9,7 +9,6 @@ Future<void> updateGame(String name, String status);
 Future<List<String>> getGameRCM(int choice, Future<List<String>> getGames, Future<List<String>> GameTags );
 
 
-
 //Media Methoden//
 //Empfängt alle Medien
 Future<List<String>> getMedia();
@@ -17,6 +16,4 @@ Future<List<String>> getMedia();
 Future<void> updateMedia(String name, String status);
 //Auswahl Media
 Future<List<String>> getMediaRCM(int choice, Future<List<String>> getMedia, Future<List<String>> MediaTags );
-
-
 }
