@@ -33,7 +33,10 @@ Future<void> selectionRCM(
 //Bekomme Profil
 Future<Profile> getProfile();
 }
-//Oberklasse Objekt noch einfügen
+
+//
+//Oberklasse Objekt kann man noch einfügen um einer Vererbung von Game und Media zu machen
+//
 
 class Game {
     final String gname;
